@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y', 'import', 'react-hooks', 'prettier'],
   rules: {
+    'prefer-object-spread': 'off',
     'no-param-reassign': 'off',
     'react/jsx-props-no-spreading': 'off',
     'prettier/prettier': 'error',

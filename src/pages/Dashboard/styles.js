@@ -23,7 +23,6 @@ export const Container = styled.div`
       margin: 015px;
     }
   }
-
   ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

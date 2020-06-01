@@ -34,6 +34,9 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/static-property-placement': 'off',
+    'react/state-in-constructor': 'off',
+    'prettier/prettier': 'error',
   },
   settings: {
     'import/resolver': {

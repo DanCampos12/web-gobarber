@@ -22,6 +22,11 @@ export const Content = styled.div`
     height: 250px;
   }
 
+  #LogoFooter {
+    width: 50px;
+    height: 50px;
+  }
+
   form {
     display: flex;
     flex-direction: column;

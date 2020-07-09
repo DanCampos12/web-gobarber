@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #fff;
+  background: #232a34;
   padding: 0 30px;
 `;
 
@@ -18,6 +18,8 @@ export const Content = styled.div`
     align-items: center;
 
     img {
+      width: 70px;
+      height: 40px;
       margin-right: 20px;
       padding-right: 20px;
       border-right: 1px solid #eee;
@@ -25,7 +27,7 @@ export const Content = styled.div`
 
     a {
       font-weight: bold;
-      color: #7159c1;
+      color: #05a081;
     }
   }
   aside {
@@ -46,14 +48,14 @@ export const Profile = styled.div`
 
     strong {
       display: block;
-      color: #333;
+      color: #05a081;
     }
 
     a {
       display: block;
       margin-top: 2px;
       font-size: 12px;
-      color: #999;
+      color: #fff;
     }
   }
 

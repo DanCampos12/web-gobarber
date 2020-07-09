@@ -11,7 +11,7 @@ export const Container = styled.div`
     margin-top: 30px;
 
     input {
-      background: rgba(0, 0, 0, 0.1);
+      background: rgba(0, 0, 0, 0.3);
       border: 0;
       border-radius: 4px;
       height: 44px;
@@ -39,6 +39,7 @@ export const Container = styled.div`
     }
 
     button {
+      width: 49%;
       margin: 5px 0 0;
       height: 44px;
       background: #3b93ff;
@@ -53,21 +54,21 @@ export const Container = styled.div`
         background: ${darken(0.03, '#3b93ff')};
       }
     }
-  }
-  > button {
-    width: 100%;
-    margin: 10px 0 0;
-    height: 44px;
-    background: #f64c75;
-    font-weight: bold;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: background 0.2s;
+    #GetOut {
+      width: 49%;
+      margin: 10px 0 0;
+      height: 44px;
+      background: #cc0000;
+      font-weight: bold;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: background 0.2s;
 
-    &:hover {
-      background: ${darken(0.08, '#f64c75')};
+      &:hover {
+        background: ${darken(0.08, '#cc0000')};
+      }
     }
   }
 `;

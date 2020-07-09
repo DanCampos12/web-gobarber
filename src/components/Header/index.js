@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Notifications from '~/components/Notifications';
 
-import logo from '~/assets/logo-header.svg';
+import logo from '~/assets/logo-header.png';
 import { Container, Content, Profile } from './styles';
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
     <Container>
       <Content>
         <nav>
-          <img src={logo} alt="GoBarber" />
+          <img src={logo} alt="Barbearia" />
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
 

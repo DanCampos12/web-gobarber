@@ -42,13 +42,13 @@ export default function SignUp() {
           name="confirmPassword"
           placeholder="Confirmação de senha"
         />
-
-        <button type="submit">Atualizar perfil</button>
+        <p>
+          <button type="submit">Atualizar perfil</button>&nbsp;&nbsp;&nbsp;
+          <button id="GetOut" type="button" onClick={handleSignOut}>
+            Sair da sua conta
+          </button>
+        </p>
       </Form>
-
-      <button type="button" onClick={handleSignOut}>
-        Sair do GoBarber
-      </button>
     </Container>
   );
 }

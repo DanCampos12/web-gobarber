@@ -7,7 +7,6 @@ import * as Yup from 'yup';
 import { signInRequest } from '~/store/modules/auth/actions';
 
 import logo from '~/assets/logo.png';
-import logoFooter from '~/assets/logo-footer.svg';
 
 const schema = Yup.object().shape({
   email: Yup.string()
@@ -33,9 +32,6 @@ export default function SignIn() {
 
         <button type="submit">{loading ? 'Carregando...' : 'Acessar'}</button>
         <br />
-        <p>
-          <img id="LogoFooter" src={logoFooter} alt="Barbearia" />
-        </p>
       </Form>
     </>
   );

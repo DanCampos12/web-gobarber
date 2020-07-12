@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Notifications from '~/components/Notifications';
 
-import logo from '~/assets/logo-header.png';
+import logo from '~/assets/logo.png';
 import { Container, Content, Profile } from './styles';
 
 export default function Header() {
@@ -19,13 +19,7 @@ export default function Header() {
         </nav>
 
         <aside>
-          <Notifications />
-
           <Profile>
-            <div>
-              <strong>{profile.name}</strong>
-              <Link to="/profile">Meu perfil</Link>
-            </div>
             <img
               src={
                 profile.avatar
@@ -34,7 +28,12 @@ export default function Header() {
               }
               alt="Barbearia do Zé"
             />
+            <div>
+              <strong>{profile.name}</strong>
+              <Link to="/profile">Meu perfil</Link>
+            </div>
           </Profile>
+          <Notifications />
         </aside>
       </Content>
     </Container>

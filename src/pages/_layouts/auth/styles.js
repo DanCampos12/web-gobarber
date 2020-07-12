@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
-import ImagemFundo from '~/assets/body.png';
+import imagemFundo from '~/assets/body.png';
 
 export const Wrapper = styled.div`
   height: 100%;
   display: flex;
-  background-image: url(${ImagemFundo});
+  background-image: url(${imagemFundo});
   background-size: 100%;
   flex-direction: column;
   justify-content: center;

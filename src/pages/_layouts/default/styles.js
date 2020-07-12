@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import ImagemFundo from '~/assets/dashboard.png';
+import imagemFundo from '~/assets/body2.jpg';
 
 export const Wrapper = styled.div`
   height: 100%;
-  background-image: url(${ImagemFundo});
+  background-image: url(${imagemFundo});
   background-size: 100%;
 `;

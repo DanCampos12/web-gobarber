@@ -39,12 +39,13 @@ export const Content = styled.div`
 export const Profile = styled.div`
   display: flex;
   margin-left: 20px;
+  margin-right: 25px;
   padding-left: 20px;
   border-left: 1px solid #eee;
 
   div {
     text-align: right;
-    margin-right: 10px;
+    margin-right: 5px;
 
     strong {
       display: block;
@@ -61,6 +62,7 @@ export const Profile = styled.div`
 
   img {
     width: 32px;
+    margin-right: 15px;
     height: 32px;
     border-radius: 50%;
   }
